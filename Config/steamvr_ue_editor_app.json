@@ -1,0 +1,18 @@
+{
+	"source": "UE",
+	"applications": [
+		{
+			"app_key": "application.generated.ue.avm_hackathon-13942748.ue4editor.exe",
+			"launch_type": "url",
+			"url": "steam://launch/",
+			"action_manifest_path": "C:/Users/Backpack 2/Documents/Unreal Projects/AVM_Hackathon/Config/SteamVRBindings/steamvr_manifest.json",
+			"strings":
+			{
+				"en_us":
+				{
+					"name": "AVM_Hackathon-13942748 [UE Editor]"
+				}
+			}
+		}
+	]
+}
