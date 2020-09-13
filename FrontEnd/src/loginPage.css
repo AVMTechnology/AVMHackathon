@@ -1,0 +1,11 @@
+.loginPageContent {
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.registerLink {
+  margin-top: 0.7em;
+  color: #85878A;
+  font-size: 1em;
+}

@@ -1,0 +1,36 @@
+.header {
+  padding-top: 4%;
+  box-sizing: border-box;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  justify-content: flex-end;
+}
+
+.navLink {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.25s ease all;
+  margin-left: 6%;
+}
+
+.navLink:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+}
+
+
+@media all and (max-width: 1200px) {
+  .navLink {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.25s ease all;
+    margin-left: 5%;
+  }
+}

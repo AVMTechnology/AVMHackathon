@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 1200px;
+  width: 100%;
+  transition: 0.25s ease all;
+  padding-bottom: 3%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.progress {
+  height: 2.4rem !important;
+  border-radius: 14px !important;
+  border: 1px solid #F4A95E;
+  background-color: #fff !important;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  background: linear-gradient(90deg, rgba(231,54,105,1) 0%, rgba(244,166,94,1) 100%) !important;
+  border-radius: 10px !important;
+  height: 2.4rem !important;
+  font-weight: bold;
+  text-align: left;
+  align-items: center !important;
+}
+
+.columnRow {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.otherPage {
+  background: url('./fon3.png') top no-repeat;
+  background-size: 67%;
+  background-position-x: right;
+  /* width: 100%; */
+  min-height: 100vh;
+  height: 100%;
+}
+
+.enterBtn {
+  background: #976BAB;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 56px;
+  transition: 0.25s ease all;
+}
+
+.enterBtn:hover {
+  color: #fff;
+  opacity: 0.92;
+  text-decoration: none;
+}
+
+.enterBtnSubmit {
+  outline: 0;
+  text-decoration: none;
+  border: 0 none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 376px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0px 1px 36px 5px rgba(0,0,0,0.1);
+  border-radius: 20px;
+  padding: 2em 2em;
+  margin-top: 5%;
+}
+
+.formTitle {
+  color: #976BAB;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-bottom: 0.7em;
+}
+
+.input {
+  border: 1px solid #85878A;
+  border-radius: 10px;
+  color: #85878A!important;
+  background: #fff;
+  outline: 0;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding: 10px 16px;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #85878A!important;
+  font-weight: 600;
+}
+
+.registerLink {
+  text-decoration: none;
+}
+
+.registerLink:hover {
+  opacity: 0.8;
+  color: #85878A;
+}

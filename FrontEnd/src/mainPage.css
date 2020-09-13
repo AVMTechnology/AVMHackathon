@@ -1,0 +1,28 @@
+.main {
+  background: url('./start.png') top no-repeat;
+  background-size: 67%;
+  background-position-x: right;
+  /* width: 100%; */
+  min-height: 100vh;
+  height: 100%;
+}
+
+.mainPageContainerText {
+  padding-top: 15%;
+}
+
+.title {
+  color: #976BAB;
+  font-size: 2.8em;
+  line-height: 1.2em;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #85878A;
+  font-size: 1.3em;
+  line-height: 1.7em;
+  font-weight: 600;
+  margin-bottom: 33px;
+}
